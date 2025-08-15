@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A simple web application for converting between metric and imperial units.">
+    <meta name="keywords" content="unit conversion, metric, imperial, length, volume, mass">
+    <meta name="author" content="Asmaa Gad">
+    <title>Metric Unit Conversion</title>
+    <link rel="stylesheet"  href="resources/index.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="conversion-display">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="number" id="input-value" placeholder= "0">
+            <button id="convert-btn">Convert</button>
+            </div>
+        </section>
+        <section>
+            <div id="conversion-result">
+                <div class="length-conversion">
+                <h2>Length(Meter/Feet)</h2>
+                <p  id="length-result"></p>
+                </div>
+                <div class="volume-conversion">
+                <h2>Volume(Liter/Gallon)</h2>
+                <p id="volume-result"></p>
+                </div>
+                <div class="mass-conversion">
+                <h2>Mass(Kilogram/Pound)</h2>
+                <p id="mass-result"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <small>Challenge by <a href ="https://scrimba.com/" target="_blank">Scrimba.</a> Coded with 🖤 for creativity by 
+            <a href="https://x.com/Asmaagadel" target="_blank">Asmaa GAD 👩‍💻</a>
+        </small>
+    </footer>
+    <script  src ="resources/index.js"></script>
+</body>
+</html>
