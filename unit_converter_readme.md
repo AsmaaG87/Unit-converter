@@ -91,6 +91,6 @@ This is a learning project, but suggestions and improvements are welcome! Feel f
 
 Created by **Asmaa GAD** 👩‍💻 as part of my frontend development journey
 
-- Twitter: (https://x.com/Asmaagadel)
+- Twitter: [@Asmaagadel](https://x.com/Asmaagadel)
 - Part of: [Scrimba Frontend Developer Career Path](https://scrimba.com/)
 
